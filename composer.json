@@ -1,0 +1,18 @@
+{
+    "name": "3li3bdalla/sudatel-sms",
+    "description": "php package for sms api , sudatel",
+    "authors": [
+        {
+            "name": "3li3bdalla",
+            "email": "ali.dev.sd@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sudatel\\": "src"
+        }
+    }
+}
